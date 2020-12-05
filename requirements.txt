@@ -1,0 +1,5 @@
+Django==1.11.29
+environs==9.2.0
+marshmallow==3.9.1
+psycopg2-binary==2.8.6
+pytz==2017.2
