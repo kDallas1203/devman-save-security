@@ -4,7 +4,19 @@
 
 ### Как установить
 
-Создайте файл .env. Посмотреть необходимые ключи, можно в файле `project/env.sample`
+Переименйуте файл `project/env.sample` в `.env`. Укажите необходимые ключи:
+
+|Ключ           |Описание|Пример|
+|---------------|--------|------|
+|`DB_HOST`      |Хост БД|db.example.org|
+|`DB_PORT`      |Порт БД|5434|
+|`DB_NAME`      |Имя БД|checkpoint|
+|`DB_USER`      |Пользователь БД|root|
+|`DB_PASSWORD`  |Пароль БД|root|
+|`SECRET_KEY`   |Секретный ключ для Django ([подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#secret-key))|secret-example|
+|`LANGUAGE_CODE`|Язык локализации Django ([подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#language-code))|ru-ru|
+|`TIME_ZONE`    |Часовой пояс ([подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-TIME_ZONE))|Europe/Moscow|
+|`DEBUG`        |Debug mode Django ([подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#debug))|True|
 
 Python3 должен быть уже установлен.
 
